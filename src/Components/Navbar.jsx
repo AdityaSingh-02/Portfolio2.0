@@ -18,12 +18,12 @@ function Navbar() {
     },
     {
       id: 3,
-      text: "Portfolio",
-      to:"#"
+      text: "Resume",
+      to:"Resume"
     },
     {
       id: 4,
-      text: "Resume",
+      text: "Portfolio",
       to:"#"
     },
     {
@@ -45,7 +45,7 @@ function Navbar() {
   });
 
   window.addEventListener("scroll",changeCol)
-  let changeColor = navCol?"bg-transparent":"bg-white bg-opacity-30";
+  let changeColor = navCol?"bg-transparent":"bg-white bg-opacity-50";
 
   return (
     <>

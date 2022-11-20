@@ -3,6 +3,7 @@ import Home from './Components/Home'
 import Navbar from './Components/Navbar'
 import Socials from './Components/Socials'
 import AboutMe from './Components/AboutMe'
+import Resume from './Components/Resume'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <Socials />
       <AboutMe />
+      <Resume />
     </>
   )
 }
