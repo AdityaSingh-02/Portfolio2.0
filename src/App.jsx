@@ -4,6 +4,8 @@ import Navbar from './Components/Navbar'
 import Socials from './Components/Socials'
 import AboutMe from './Components/AboutMe'
 import Resume from './Components/Resume'
+import Portfolio from './Components/Portfolio';
+import ContactMe from './Components/ContactMe'
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Socials />
       <AboutMe />
       <Resume />
+      <Portfolio />
+      <ContactMe />
     </>
   )
 }

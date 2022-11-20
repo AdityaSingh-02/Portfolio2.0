@@ -24,7 +24,7 @@ function Navbar() {
     {
       id: 4,
       text: "Portfolio",
-      to:"#"
+      to:"Portfolio"
     },
     {
       id: 5,
@@ -57,7 +57,7 @@ function Navbar() {
 
           <div className="Navigations hidden sm:flex text-black  justify-center items-center space-x-7 cursor-pointer font-semibold ">
             {Links.map(({ id, text, to }) => (
-              <Link to={to} key={id} smooth={true} duration={500} className="NavLinks">
+              <Link to={to} key={id} smooth={true} duration={800} className="NavLinks">
                 {text}
               </Link>
             ))}
